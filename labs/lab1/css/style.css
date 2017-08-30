@@ -1,0 +1,88 @@
+
+body{
+    background-color: #D1EBEC !important;
+    }
+    /* Start http://www.cursors-4u.com */
+body, a:hover {
+    cursor: url(http://cur.cursors-4u.net/nature/nat-4/nat368.cur), progress !important;
+} 
+h1{
+    font-family: 'Sniglet',cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+    color: #f29dd3;
+}
+header,main,nav,footer{
+        text-align:center;
+    }
+nav a {
+    padding:15px;
+    padding-bottom:4px;
+    font-family: 'Sniglet',cursive;
+    font-size:1.8em;
+    text-decoration:none;
+    color:#f29dd3;
+}
+
+nav a:hover{
+    border-bottom: 2px black solid;
+    font-size: 2em;
+    transition: .9s;
+}
+hr{
+    color: #f19cab;
+    width:50%;
+}
+#me,#welcomeText{
+    float: left;
+}
+#me{
+    padding-left: 50px;
+}
+#welcomeText{
+    color:#f19cab;
+    font-family: 'Sniglet',cursive;
+    font-size:2em;
+    padding-right: 30px;
+}
+footer{
+    clear:left;
+}
+#content{
+    font-family: 'Sniglet',cursive;
+    padding-top: 15px;
+    text-align: center;
+    color:#D1EBEC;
+}
+table{
+    
+    margin:0px auto;
+    padding-top: 15px;
+}
+td{
+    color:#f19cab;
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+td strong{
+    color:#f19cab;
+}
+#table-header{
+    background-color: white;
+}
+.table-row{
+    background-color: black;
+}
+.hobby{
+    font-family: 'Sniglet',cursive;
+    padding-top: 15px;
+    font-size: 1.3em;
+    color:#f29dd3;
+}
+ul{
+    font-family: 'Sniglet',cursive;
+    padding-top: 15px;
+    text-align: left;
+    padding-left: 200px;
+}
+
