@@ -128,6 +128,8 @@ td strong{
     animation: rainbow 1s infinite; 
 }
 ul{
+    position: relative;
+    left:400px;
     font-family: 'Sniglet',cursive;
     padding-top: 50px;
     text-align: left;
