@@ -67,7 +67,13 @@ hr{
 .img-circle{
     border-radius: 50%;
 }
+figure{
+    position: relative;
+    left:400px;
+}
 #welcomeText{
+    position: relative;
+    left:300px;
     font-family: 'Sniglet',cursive;
     font-size:2em;
     padding-right: 30px;
