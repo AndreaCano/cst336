@@ -73,9 +73,10 @@ figure{
 }
 #welcomeText{
     position: relative;
-    left:300px;
+    left:400px;
     font-family: 'Sniglet',cursive;
     font-size:2em;
+    padding-left: 30px;
     padding-right: 30px;
     padding-top: 30px;
     color:#ffff4c;
