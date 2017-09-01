@@ -7,7 +7,7 @@ body{
     }
     /* Start http://www.cursors-4u.com */
 body, a:hover {
-    cursor: url(http://cur.cursors-4u.net/nature/nat-4/nat368.cur), progress !important;
+    cursor: url(http://cur.cursors-4u.net/nature/nat-9/nat858.cur), progress !important;
 } 
 
 @-webkit-keyframes slide {
@@ -60,6 +60,7 @@ hr{
 #me,#welcomeText{
     float: left;
 }
+
 #me{
     padding-left: 150px;
 }
@@ -125,7 +126,7 @@ ul{
     text-align: left;
     padding-left: 200px;
     font-size: 1.6em;
-   color:#ffff4c;
+    color:#ffff4c;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
 }
