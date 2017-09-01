@@ -62,21 +62,25 @@ hr{
 }
 
 #me{
-    padding-left: 150px;
+    position: relative;
+    left: 250px;
+    padding-left: 50px;
 }
 .img-circle{
     border-radius: 50%;
 }
-figure{
-    position: relative;
-    left:400px;
+.fixAlign{
+     position: relative;
+     left:200px;
+     padding-right:200px;
 }
 #welcomeText{
     position: relative;
-    left:400px;
+    left:200px;
     font-family: 'Sniglet',cursive;
     font-size:2em;
-    padding-left: 30px;
+    text-align: left;
+    padding-left: 70px;
     padding-right: 30px;
     padding-top: 30px;
     color:#ffff4c;
@@ -129,11 +133,10 @@ td strong{
 }
 ul{
     position: relative;
-    left:400px;
     font-family: 'Sniglet',cursive;
     padding-top: 50px;
     text-align: left;
-    padding-left: 200px;
+    padding-left: 500px;
     font-size: 1.6em;
     color:#ffff4c;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
