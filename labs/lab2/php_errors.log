@@ -1,0 +1,97 @@
+[06-Sep-2017 20:23:41 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 23
+[08-Sep-2017 19:45:15 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 9
+[08-Sep-2017 19:45:15 UTC] PHP Stack trace:
+[08-Sep-2017 19:45:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:45:15 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 9
+[08-Sep-2017 19:45:15 UTC] PHP Stack trace:
+[08-Sep-2017 19:45:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:45:15 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 19
+[08-Sep-2017 19:45:15 UTC] PHP Stack trace:
+[08-Sep-2017 19:45:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:45:16 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 9
+[08-Sep-2017 19:45:16 UTC] PHP Stack trace:
+[08-Sep-2017 19:45:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:45:16 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 9
+[08-Sep-2017 19:45:16 UTC] PHP Stack trace:
+[08-Sep-2017 19:45:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:45:16 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 19
+[08-Sep-2017 19:45:16 UTC] PHP Stack trace:
+[08-Sep-2017 19:45:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:46:29 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 9
+[08-Sep-2017 19:46:29 UTC] PHP Stack trace:
+[08-Sep-2017 19:46:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:46:29 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 9
+[08-Sep-2017 19:46:29 UTC] PHP Stack trace:
+[08-Sep-2017 19:46:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:46:29 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 19
+[08-Sep-2017 19:46:29 UTC] PHP Stack trace:
+[08-Sep-2017 19:46:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:46:31 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 9
+[08-Sep-2017 19:46:31 UTC] PHP Stack trace:
+[08-Sep-2017 19:46:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:46:31 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 9
+[08-Sep-2017 19:46:31 UTC] PHP Stack trace:
+[08-Sep-2017 19:46:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:46:31 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 19
+[08-Sep-2017 19:46:31 UTC] PHP Stack trace:
+[08-Sep-2017 19:46:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:48:00 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 9
+[08-Sep-2017 19:48:00 UTC] PHP Stack trace:
+[08-Sep-2017 19:48:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:48:00 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 9
+[08-Sep-2017 19:48:00 UTC] PHP Stack trace:
+[08-Sep-2017 19:48:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:48:00 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 19
+[08-Sep-2017 19:48:00 UTC] PHP Stack trace:
+[08-Sep-2017 19:48:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:48:01 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 9
+[08-Sep-2017 19:48:01 UTC] PHP Stack trace:
+[08-Sep-2017 19:48:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:48:01 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 9
+[08-Sep-2017 19:48:01 UTC] PHP Stack trace:
+[08-Sep-2017 19:48:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:48:01 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 19
+[08-Sep-2017 19:48:01 UTC] PHP Stack trace:
+[08-Sep-2017 19:48:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:48:01 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 9
+[08-Sep-2017 19:48:01 UTC] PHP Stack trace:
+[08-Sep-2017 19:48:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:48:01 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 9
+[08-Sep-2017 19:48:01 UTC] PHP Stack trace:
+[08-Sep-2017 19:48:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:48:01 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 19
+[08-Sep-2017 19:48:01 UTC] PHP Stack trace:
+[08-Sep-2017 19:48:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:48:01 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 9
+[08-Sep-2017 19:48:01 UTC] PHP Stack trace:
+[08-Sep-2017 19:48:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:48:01 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 9
+[08-Sep-2017 19:48:01 UTC] PHP Stack trace:
+[08-Sep-2017 19:48:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:48:01 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 19
+[08-Sep-2017 19:48:01 UTC] PHP Stack trace:
+[08-Sep-2017 19:48:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:48:02 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 9
+[08-Sep-2017 19:48:02 UTC] PHP Stack trace:
+[08-Sep-2017 19:48:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:48:02 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 9
+[08-Sep-2017 19:48:02 UTC] PHP Stack trace:
+[08-Sep-2017 19:48:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:48:02 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 19
+[08-Sep-2017 19:48:02 UTC] PHP Stack trace:
+[08-Sep-2017 19:48:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:48:02 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 9
+[08-Sep-2017 19:48:02 UTC] PHP Stack trace:
+[08-Sep-2017 19:48:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:48:02 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 9
+[08-Sep-2017 19:48:02 UTC] PHP Stack trace:
+[08-Sep-2017 19:48:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:48:02 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 19
+[08-Sep-2017 19:48:02 UTC] PHP Stack trace:
+[08-Sep-2017 19:48:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:48:16 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab2/777/functions.php on line 32
+[08-Sep-2017 19:48:16 UTC] PHP Stack trace:
+[08-Sep-2017 19:48:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
+[08-Sep-2017 19:48:17 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab2/777/functions.php on line 32
+[08-Sep-2017 19:48:17 UTC] PHP Stack trace:
+[08-Sep-2017 19:48:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/777/index.php:0
