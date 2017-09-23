@@ -1,9 +1,0 @@
-[08-Sep-2017 19:32:04 UTC] PHP Parse error:  syntax error, unexpected '","' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/Practice/randomColor.php on line 15
-[08-Sep-2017 19:32:06 UTC] PHP Parse error:  syntax error, unexpected '","' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/Practice/randomColor.php on line 15
-[08-Sep-2017 19:32:37 UTC] PHP Parse error:  syntax error, unexpected '","' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/Practice/randomColor.php on line 15
-[08-Sep-2017 19:32:39 UTC] PHP Parse error:  syntax error, unexpected '","' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/Practice/randomColor.php on line 15
-[08-Sep-2017 19:32:41 UTC] PHP Parse error:  syntax error, unexpected '","' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/Practice/randomColor.php on line 15
-[08-Sep-2017 19:32:53 UTC] PHP Parse error:  syntax error, unexpected '","' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/Practice/randomColor.php on line 15
-[08-Sep-2017 19:32:54 UTC] PHP Parse error:  syntax error, unexpected '","' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/Practice/randomColor.php on line 15
-[08-Sep-2017 19:33:34 UTC] PHP Parse error:  syntax error, unexpected '" ,"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/Practice/randomColor.php on line 15
-[08-Sep-2017 19:33:55 UTC] PHP Parse error:  syntax error, unexpected '" ,"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/Practice/randomColor.php on line 15
