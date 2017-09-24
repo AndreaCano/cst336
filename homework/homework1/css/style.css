@@ -1,0 +1,111 @@
+html{
+    background: radial-gradient(blue, black, purple);
+}
+body{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Russo One', sans-serif;
+
+}
+h1{
+    text-align: center;
+    color:#f4c06b;
+    text-shadow: 2px 2px white;
+    font-size: 3em;
+}
+hr{
+    width:50%;
+}
+.video:hover{
+    transform: scale(1.1, 1.1);
+}
+#navContainer{
+    text-align: center;
+    text-shadow: 1px 1px white;
+
+}
+#vrImage{
+    padding-top: 50px;
+    float: left;
+    margin: 4px 5px 0px 0px;
+    border:1px;
+    border-radius: 30%;
+}
+nav a{
+    color:white;
+    font-size: 1.5em;
+    padding-right:5px;
+}
+.helper{
+    padding-top: 50px;
+    float: left;
+    margin: 0px 0px 0px 0px;
+    border:1px;
+}
+.game{
+    padding-top: 50px;
+    float: right;
+    margin: 0px 0px 0px 0px;
+    border:1px;
+}
+.Gamevideo{
+    width: 600px;
+    height: 400px;
+    padding: 50px 50px 50px 50px;
+    float:left;
+    border:0;
+}
+.Gamevideo:hover{
+        transform: scale(1.1, 1.1);
+}
+figure {
+    display: inline-block;
+    padding:5px;
+}
+figcaption {
+    text-align: center;
+    font-family: Arial;
+    color: white;
+}
+.overview{
+   padding-top: 25px;
+   padding-left: 20px;
+    color:white;
+    font-size: 2em;
+    text-align: center;
+    word-wrap: normal;
+}
+.onPage{
+    color:#ce6c0a !important;
+}
+nav a{
+    color:#f4c06b !important;
+}
+ 
+a:visited{
+    color:#ea07c4;
+}
+
+.video{
+    width: 600px;
+    height: 400px;
+    padding: 50px 50px 50px 50px;
+    float:right;
+    border:0;
+}
+i{
+    font-size: 36px;
+}
+
+
+
+footer{
+    text-align: center;
+    font-size: .75em;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    color:grey;
+}

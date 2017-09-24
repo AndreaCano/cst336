@@ -1,0 +1,71 @@
+     @import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+    
+
+    img {
+        border-radius:20px;
+    }
+    
+    body {
+        background-color: #110100;
+        color: white;
+        font-family:"Baloo Bhaina";        
+    }
+
+    
+    #reel1, #reel2{
+        top:248px;
+        position:absolute;
+    }
+    
+    #reel1{
+        left:145px;
+    }
+    #reel2{
+        left:252px;
+    }
+    #win{
+        text-align: center;
+    }
+    #move{
+        text-align: center;
+    }
+    
+
+    
+   
+    h1,h2
+    {
+        font-size: 45;
+        font-style: oblique;
+
+        text-align: center;
+      color: rgba(0,0,0,0.6);
+ 
+    color: white;
+     text-shadow: 2px 2px 4px #000000;
+    
+     padding-bottom:3px;
+    }
+   
+ 
+ player
+ {
+     float: left;
+ }
+ work
+ {
+     text-align: center;
+ }
+   h3{
+       display: inline;
+       margin: 65px;
+   }
+   
+   table{
+       text-align: center;
+   }
+   body
+   {
+       background-color: #700606;
+   }
+ 

@@ -1,0 +1,147 @@
+
+body{
+    background-color: #D1EBEC;
+    background-image: url('http://www.fabiovisentin.com/docs/Image/rose/yellow-rose-transparent-isolated.png'); 
+    background-repeat: repeat-x; 
+    -webkit-animation: slide 10s linear infinite;
+    }
+    /* Start http://www.cursors-4u.com */
+body, a:hover {
+    cursor: url(http://cur.cursors-4u.net/nature/nat-9/nat858.cur), progress !important;
+} 
+
+@-webkit-keyframes slide {
+	    from { background-position: 0 0; }
+		to { background-position: 100% 0; }
+	}
+
+	@-moz-keyframes slide {
+	    from { background-position: 0 0; }
+		to { background-position: 100% 0; }
+	}
+	
+	
+
+h1{
+    font-family: 'Sniglet',cursive;
+    font-size: 4em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    animation: rainbow 1s infinite; 
+    text-shadow: -2px 0 #f19cab;
+
+
+}
+header,main,nav,footer{
+        text-align:center;
+    }
+    footer{
+        padding-top: 10px;
+        font-family: 'Sniglet',cursive;
+    }
+nav a {
+    padding:15px;
+    padding-bottom:4px;
+    font-family: 'Sniglet',cursive;
+    font-size:1.8em;
+    text-decoration:none;
+    animation: rainbow 1s infinite; 
+
+    /*color:#f29dd3;*/
+}
+
+nav a:hover{
+    border-bottom: 2px black solid;
+    font-size: 2em;
+    transition: .9s;
+}
+hr{
+    color: #f19cab;
+    width:50%;
+}
+#me,#welcomeText{
+    float: left;
+}
+
+#me{
+    position: relative;
+    left: 250px;
+    padding-left: 50px;
+}
+.img-circle{
+    border-radius: 50%;
+}
+.fixAlign{
+     position: relative;
+     left:200px;
+     padding-right:200px;
+}
+#welcomeText{
+    position: relative;
+    left:200px;
+    font-family: 'Sniglet',cursive;
+    font-size:2em;
+    text-align: left;
+    padding-left: 70px;
+    padding-right: 30px;
+    padding-top: 30px;
+    color:#ffff4c;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+
+/* Standar Syntax */
+@keyframes rainbow{
+	20%{color: #0f000d;}
+	40%{color: #77156b;}
+	60%{color: #3c6651;}
+	80%{color: #153b77;}
+	70%{color: #ad7118;}	
+}
+footer{
+    clear:left;
+}
+#content{
+    font-family: 'Sniglet',cursive;
+    padding-top: 15px;
+    text-align: center;
+    color:#D1EBEC;
+}
+table{
+    
+    margin:0px auto;
+    padding-top: 15px;
+}
+td{
+    color:#f19cab;
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+td strong{
+    animation: rainbow 1s infinite;
+}
+#table-header{
+    background-color: white;
+}
+.table-row{
+    background-color: black;
+}
+.hobby{
+    font-family: 'Sniglet',cursive;
+    padding-top: 15px;
+    font-size: 1.8em;
+    animation: rainbow 1s infinite; 
+}
+ul{
+    position: relative;
+    font-family: 'Sniglet',cursive;
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 500px;
+    font-size: 1.6em;
+    color:#ffff4c;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
