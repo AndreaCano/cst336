@@ -6,11 +6,40 @@
     }
     
     input {
-        font-size: 3em;
-        color: black;
+       
+    background: #1A1A1A; 
+    border-radius: 2em; 
+    border: none; 
+    color: white; 
+    outline: none; 
+    color: #A2A2A2; 
+    padding-left: .5em; 
+    font-size: 2em;
+    background: #eee;
+
+	  border: 20px solid transparent;
     }
     
     #carousel-example-generic {
          margin: 0 auto;   
          width: 700px;
     }
+    form{
+        color: #42a7f4;
+        font-size: 1.5em;
+    }
+    .box{
+        text-align: center;
+        width: 175px;
+        height: 190px;
+      margin: auto;
+	  background: #eee;
+
+	  border: 20px solid transparent;
+
+	  -moz-border-image: -moz-linear-gradient(top left, #3acfd5 0%, #3a4ed5 100%);
+	  -webkit-border-image: -webkit-linear-gradient(top left, #3acfd5 0%, #3a4ed5 100%);
+	  border-image: linear-gradient(to bottom right, #3acfd5 0%, #3a4ed5 100%);
+
+	  border-image-slice: 1;
+	}

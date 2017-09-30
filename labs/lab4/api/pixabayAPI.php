@@ -1,7 +1,7 @@
 <?php
 
 //returns array with 100 URLs to images from Pixabay.com, based on a "keyword"
-function getImageURLs($keyword, $orientation="horizontal") {
+function getImageURLs($keyword, $orientation = "horizontal") {
     $curl = curl_init();
     curl_setopt_array($curl, array(
       CURLOPT_URL => "https://pixabay.com/api/?key=6500346-7a09427948f063f8c004cae44&q=$keyword&image_type=photo&orientation=$orientation&safesearch=true&per_page=100",
