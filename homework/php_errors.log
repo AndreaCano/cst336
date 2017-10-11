@@ -114,3 +114,34 @@
 [16-Sep-2017 21:22:21 UTC] PHP   2. play() /home/ubuntu/workspace/cst336/homework/homework2/index.php:16
 [16-Sep-2017 21:22:21 UTC] PHP   3. car() /home/ubuntu/workspace/cst336/homework/homework2/functions.php:78
 [16-Sep-2017 21:22:21 UTC] PHP   4. array_rand() /home/ubuntu/workspace/cst336/homework/homework2/functions.php:19
+[09-Oct-2017 21:47:11 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'file does not exist' in /home/ubuntu/workspace/cst336/homework/homework3/vendor/google/apiclient/src/Google/Client.php:849
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework3/vendor/google/apiclient/src/Google/Client.php(834): Google_Client->setAuthConfig('client_secrets....')
+#1 /home/ubuntu/workspace/cst336/homework/homework3/quickstart.php(20): Google_Client->setAuthConfigFile('client_secrets....')
+#2 /home/ubuntu/workspace/cst336/homework/homework3/quickstart.php(72): getClient()
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework3/vendor/google/apiclient/src/Google/Client.php on line 849
+[09-Oct-2017 21:48:55 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'file does not exist' in /home/ubuntu/workspace/cst336/homework/homework3/vendor/google/apiclient/src/Google/Client.php:849
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework3/vendor/google/apiclient/src/Google/Client.php(834): Google_Client->setAuthConfig('client_secrets....')
+#1 /home/ubuntu/workspace/cst336/homework/homework3/quickstart.php(20): Google_Client->setAuthConfigFile('client_secrets....')
+#2 /home/ubuntu/workspace/cst336/homework/homework3/quickstart.php(72): getClient()
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework3/vendor/google/apiclient/src/Google/Client.php on line 849
+[09-Oct-2017 21:59:31 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, string given in /home/ubuntu/workspace/cst336/homework/homework3/quickstart.php on line 36
+[09-Oct-2017 21:59:31 UTC] PHP Stack trace:
+[09-Oct-2017 21:59:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/homework3/quickstart.php:0
+[09-Oct-2017 21:59:31 UTC] PHP   2. getClient() /home/ubuntu/workspace/cst336/homework/homework3/quickstart.php:72
+[09-Oct-2017 21:59:31 UTC] PHP   3. fgets() /home/ubuntu/workspace/cst336/homework/homework3/quickstart.php:36
+[09-Oct-2017 21:59:31 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Invalid code' in /home/ubuntu/workspace/cst336/homework/homework3/vendor/google/apiclient/src/Google/Client.php:183
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/homework/homework3/vendor/google/apiclient/src/Google/Client.php(170): Google_Client->fetchAccessTokenWithAuthCode('')
+#1 /home/ubuntu/workspace/cst336/homework/homework3/quickstart.php(39): Google_Client->authenticate('')
+#2 /home/ubuntu/workspace/cst336/homework/homework3/quickstart.php(72): getClient()
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst336/homework/homework3/vendor/google/apiclient/src/Google/Client.php on line 183
+[10-Oct-2017 18:26:41 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/homework/homework3/romance.php on line 58
+[10-Oct-2017 18:26:43 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/homework/homework3/romance.php on line 58
+[10-Oct-2017 18:48:34 UTC] PHP Fatal error:  Cannot redeclare display() (previously declared in /home/ubuntu/workspace/cst336/homework/homework3/romance.php:12) in /home/ubuntu/workspace/cst336/homework/homework3/romance.php on line 60
+[10-Oct-2017 19:02:15 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/cst336/homework/homework3/romance.php on line 11
+[11-Oct-2017 02:14:47 UTC] PHP Fatal error:  Cannot redeclare display() (previously declared in /home/ubuntu/workspace/cst336/homework/homework3/horror.php:40) in /home/ubuntu/workspace/cst336/homework/homework3/horror.php on line 56

@@ -1,0 +1,122 @@
+header{
+    font-family: 'Sniglet',cursive;
+    font-size: 3em;
+    text-align: center;
+    animation: rainbow 1s infinite; 
+    text-shadow: -2px 0 #f19cab;
+
+}
+h1{
+  margin:0px;
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+	20%{color: #0f000d;}
+	40%{color: #77156b;}
+	60%{color: #3c6651;}
+	80%{color: #153b77;}
+	70%{color: #ad7118;}	
+}
+
+p{
+  font-family: 'Sniglet',cursive;
+  word-wrap: normal;
+  font-size: 2em;
+  text-align: center;
+  margin: 0 auto; width: 50%
+  
+}
+button {
+    text-align: center;
+    font-size: 4em;
+    color:black;
+}
+#optionHead{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+#og{
+    font-family: monospace;
+    color:black;
+    border: none; 
+    outline: none;
+    border: dotted;
+      background-color: grey;
+      border-radius: 50%;
+}
+#romantic {
+    font-family: 'Dancing Script', cursive;
+    color:#f4427a;
+    font-size: 3em;
+    border: none; 
+    outline: none;
+      background-color: transparent;
+    text-align: center;
+    background: linear-gradient(to right, white, pink);
+    
+}
+
+#horrific {
+    font-family: 'Nosifer', fantasy;
+    color:red;
+    border: none; 
+    outline: none;
+    border: transparent;
+      background-color: black;
+
+
+}
+input[type=radio]{
+    outline: 3px solid black;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  margin-left: auto;
+  width: 200px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+
+
+.button:hover {
+  padding-right: 25px;
+  transform: scale(1.5, 1.5);
+}
+
+#story{
+  font-size: 3em;
+  text-align: center;
+  padding-bottom: 15px;
+  
+}
+h2{
+  text-align: center;
+  font-family: 'Sniglet',cursive;
+  border-style: dotted solid;
+  background-color: white;
+  margin: 0 auto; width: 50%;
+  
+}
+#container{
+  margin: 0 auto; width: 50% !important;
+}
+#fill{
+  padding-top: 1.5em;
+  text-align: center;
+  
+}
+label{
+    font-size: 2em;
+}
+
+

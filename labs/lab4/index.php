@@ -56,7 +56,7 @@
             <input type = "radio" id = "lhorizontal" name = "layout" value = "horizontal" <?= ($_GET['layout']=='horizontal')?"checked":"" ?> >
             <label for = "Horizontal"></label><label for="lhorizontal"> Horizontal </label>
             
-            <input type = "radio" id = "lvertical" name = "layout" value = "vertical" 
+            <input type = "radio" id = "lvertical" name = "layout" value = "vertical"  
             
             <?php
                 if($_GET['layout']=="vertical"){
