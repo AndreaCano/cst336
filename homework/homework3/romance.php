@@ -54,9 +54,59 @@
          }
          if(isset($_POST['submit']))
         {
-            display();
+           if(empty($_POST['name1'])){
             
-        }   
+            echo "<h2 style = 'color:red'> ERROR! You must fill in all blanks</h2>";
+            return;
+            exit;
+           }
+           else if(empty($_POST['adj1'])){
+            
+            echo "<h2 style = 'color:red'> ERROR! You must fill in all blanks</h2>";
+            return;
+            exit;
+           }
+           else if(empty($_POST['num1'])){
+            
+            echo "<h2 style = 'color:red'> ERROR! You must fill in all blanks</h2>";
+            return;
+            exit;
+           }
+           else if(empty($_POST['pNoun'])){
+            
+            echo "<h2 style = 'color:red'> ERROR! You must fill in all blanks</h2>";
+            return;
+            exit;
+           }
+           else if(empty($_POST['name2'])){
+            
+            echo "<h2 style = 'color:red'> ERROR! You must fill in all blanks</h2>";
+            return;
+            exit;
+           }
+           else if(empty($_POST['sNoun'])){
+            
+            echo "<h2 style = 'color:red'> ERROR! You must fill in all blanks</h2>";
+            return;
+            exit;
+           }
+           else if(empty($_POST['adj2'])){
+            
+            echo "<h2 style = 'color:red'> ERROR! You must fill in all blanks</h2>";
+            return;
+            exit;
+           }
+           else if(empty($_POST['num2'])){
+            
+            echo "<h2 style = 'color:red'> ERROR! You must fill in all blanks</h2>";
+            return;
+            exit;
+           }
+           else{
+               display();
+           }
+            
+        } 
         
         function poll(){
            echo "Thanks for voting";
