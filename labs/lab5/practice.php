@@ -1,13 +1,6 @@
 <?php
-$host = 'localhost'; //cloud9
-$dbname = 'tcp';
-$username = 'root';
-$password = '';
-//creates database connection
-$dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-
-//displays related errors
-$dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+include '../../../dbConnection.php';
+$dbConn = getDatabaseConnection();
 
 function userStartA(){
     global $dbConn;
