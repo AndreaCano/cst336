@@ -7,11 +7,11 @@ if (!isset($_SESSION['username'])) { //validates that admin has indeed logged in
     
 }
 
- include("../../../dbConnection.php");
+ include("../../dbConnection.php");
  $conn = getDatabaseConnection();
 
 function getDepartmentInfo(){
-    global $conn;        
+    global $conn;         
     $sql = "SELECT deptName, departmentId 
             FROM tc_department 
             ORDER BY deptName";
