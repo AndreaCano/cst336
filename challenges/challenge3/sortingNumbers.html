@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Order Numbers </title>
+        <meta charset="utf-8" />
+        <script src="https://code.jquery.com/jquery.min.js"></script>
+    </head>
+    <body>
+
+        <div class="jumbotron">
+            <h1>Enter the Numbers</h1>
+        </div>
+        
+        <div id="directions">
+            Enter a number between 1-50
+        
+            <br><br>
+            Number1: <input type = "text" id= "num1" class="num"> <br>
+            Number2: <input type = "text" id= "num2" class="num"> <br>
+            Number3: <input type = "text" id= "num3" class="num"> <br>
+            <button onclick = "getFormData()">Submit</button>
+            <br>
+            Max number is: <p id ="max"></p>
+            Order Asc is : <p id ="order"></p>
+            <br><br>
+
+        </div>
+        
+        <script>
+        function getFormData(){ 
+        var num1=document.getElementById('num1').value;
+        var num2=document.getElementById('num2').value;
+        var num3=document.getElementById('num3').value;
+        if(num1 > 50 || num1 < 1){
+            alert("Invalid Number 1");
+        }
+        
+        else if(num2 > 50 || num2 < 1){
+            alert("Invalid Number 2");
+        }
+        
+        else if(num3 > 50 || num3 < 1){
+            alert("Invalid Number 3");
+        }
+        else{
+        max(num1, num2,num3);
+        order(num1, num2,num3);
+        }
+    }
+         function max(num1,num2,num3){
+             var arr =new Array();
+             arr[0]=num1;
+             arr[1] = num2;
+             arr[2] = num3;
+             //arr.sort();
+            if(arr[0] > arr[1] && arr[0] > arr[2]){
+                document.getElementById("max").innerHTML = arr[0];            
+                }
+             else if (arr[1] > arr[0] && arr[1] > arr[2]){
+                document.getElementById("max").innerHTML = arr[1];            
+             }
+             else{
+                document.getElementById("max").innerHTML = arr[2];            
+             }
+             
+         }
+         
+          function order(num1,num2,num3){
+             var arr =new Array();
+             arr[0]=num1;
+             arr[1] = num2;
+             arr[2] = num3;
+             arr.sort(function(a, b){return a - b});
+             if(num1==num2 &&num1==num3){
+                 document.getElementById("order").innerHTML = "All Same";
+
+             }
+             else{
+             document.getElementById("order").innerHTML = arr;     
+             }
+             
+         }
+        </script>
+    </body>
+</html>
