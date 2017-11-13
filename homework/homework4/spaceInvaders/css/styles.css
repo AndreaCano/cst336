@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+}
+
+#gameScreen{
+	position: relative;
+	background-color: silver;
+	text-align: center;
+	overflow: hidden;
+}
+
+.gameObject{
+	position: absolute;
+	z-index: 1;
+}
+.btn{
+    padding: 7px 7px !important;
+    margin:0px 2px;
+}
+h1{
+    font-size: 4em !important;
+}
+h1,h2{
+    font-family: 'Sniglet', cursive !important;
+    text-align: center;
+}

@@ -115,4 +115,8 @@ function disableBtn(btn){
     $(".replayBtn").on("click",function(){
          location.reload();
     });
+    
+    $("#displayHint").click(function(){
+        $('.hint').show();
+    });
 
