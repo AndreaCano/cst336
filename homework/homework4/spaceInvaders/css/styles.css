@@ -2,11 +2,28 @@ body{
     text-align: center;
 }
 
+
+#outBoard{
+    border: 13px solid black;
+    border-radius: 10px;
+    background-image: repeating-linear-gradient(145deg, #58585b, #58585b 30px, #36365b 30px, #36365b 60px);
+    padding-left: 80px;
+    padding:25px;
+    padding-bottom: 55px;
+    margin: 0 auto;
+}
+div{
+    display: block;
+}
 #gameScreen{
 	position: relative;
 	background-color: silver;
 	text-align: center;
 	overflow: hidden;
+}
+h1,h2{
+    font-family: 'Sniglet', cursive !important;
+    text-align: center;
 }
 
 .gameObject{
@@ -19,8 +36,4 @@ body{
 }
 h1{
     font-size: 4em !important;
-}
-h1,h2{
-    font-family: 'Sniglet', cursive !important;
-    text-align: center;
 }

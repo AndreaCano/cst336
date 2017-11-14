@@ -2,7 +2,7 @@
 	<head>
 		<title>SPACE INVADERS</title>
 		<link  href="css/styles.css" rel="stylesheet" type="text/css" />
-		<link href="https://fonts.googleapis.com/css?family=Sniglet:800" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Sniglet:700" rel="stylesheet">
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -10,7 +10,7 @@
         
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style scoped>
-        html{
+        body{
         background-image: repeating-linear-gradient(145deg, #ccc, #ccc 30px, #dbdbdb 30px, #dbdbdb 60px);
         }
         </style>
@@ -31,8 +31,8 @@
 			var bg1,bg2;
 			const BG_SPEED = 4;
 
-			const GS_WIDTH = 800;
-			const GS_HEIGHT = 600;
+			const GS_WIDTH = 700;
+			const GS_HEIGHT = 500;
 
 			function init(){
 				gameScreen = document.getElementById('gameScreen');
@@ -42,7 +42,7 @@
 				bg1 = document.createElement('IMG');
 				bg1.className = 'gameObject';
 				bg1.src = 'bg.jpg';
-				bg1.style.width = '800px';
+				bg1.style.width = '700px';
 				bg1.style.height = '1422px';
 				bg1.style.left = '0px';
 				bg1.style.top = '0px';
@@ -51,7 +51,7 @@
 				bg2 = document.createElement('IMG');
 				bg2.className = 'gameObject';
 				bg2.src = 'bg.jpg';
-				bg2.style.width = '800px';
+				bg2.style.width = '700px';
 				bg2.style.height = '1422px';
 				bg2.style.left = '0px';
 				bg2.style.top = '-1422px';
@@ -74,8 +74,8 @@
 				ship.className = 'gameObject';
 				ship.style.width = '68px';
 				ship.style.height = '68px';
-				ship.style.top = '500px';
-				ship.style.left = '366px';
+				ship.style.top = '400px';
+				ship.style.left = '266px';
 
 				gameScreen.appendChild(ship);
 				
@@ -179,7 +179,7 @@
 				var newX = Math.floor(Math.random()*maxX);
 				e.style.left = newX + 'px';
 				
-				var newY = Math.floor(Math.random()*600)-1000;
+				var newY = Math.floor(Math.random()*400)-1000;
 				e.style.top = newY +'px';
 			}
 			
@@ -254,13 +254,15 @@
 
 		</script>
 	</head>
-	<div class='container text-center'>
 	
 	<body onload="init()">
+		<audio loop="loop" autoplay="autoplay" src="space.mp3" preload="auto" controls="none" style="display: none;"></audio>
 		<button class = "replayBtn btn btn-success" onClick="window.location.reload()">Restart</button>
+		<div id = "outBoard" class="row align-items-center justify-content-center">
 		<div id="gameScreen"></div>
 		<div id="output"></div>
+		</div>
+
 
 	</body>
-	</div>
 </html>
