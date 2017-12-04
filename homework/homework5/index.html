@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>AJAX: Sign Up Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script>
+
+    function getCity() {
+        
+        //alert($("#zip").val());
+        $.ajax({
+
+            type: "GET",
+            url: "https://api.walmartlabs.com/v1/search?apiKey=hrtssg7urhh5j6xwtzefcgj3",
+            dataType: "json",
+            data: { "query": $("#query").val()},
+            success: function(data,status) {
+              
+              //alert(data.city);
+              if(data == false){
+                 $("#zipError").html(" Invalid").css('color','red');
+
+              }
+              else{
+              $("#zipError").html("");
+              $("#city").html(data.city);
+              $("#lat").html(data.latitude);
+              $("#long").html(data.longitude);
+              }
+            
+            },
+            error:function(data,status) {
+              $("#zipError").html(data);
+
+            
+            },
+            complete: function(data,status) { //optional, used for debugging purposes
+            //alert(status);
+            }
+
+        });//ajax
+        
+    }  //function
+    
+        
+</script>
+
+</head>
+
+<body id="dummybodyid">
+
+   <h1> Walmart Search Form</h1>
+
+    <form id= "finalForm" onsubmit="return false">
+        <fieldset>
+           <legend>Search</legend>
+            Item:  <input type="text"><br> 
+            Zip Code:    <input type="text" id="zip"> <span id="zipError"></span> <br>
+            price: <span id="price"></span> 
+            <br>
+            number of items: <span id="numItems"></span> 
+            <br>
+            <br>
+            Sort by: <select id="sort" name="sort">
+                <option value="relevance">Select One</option>
+                <option value="price"> Price</option>
+                <option value="title"> Title</option>
+                <option value="customerRating"> Rating</option>
+
+            </select><br />
+            Select a County: <select id = "countyId"></select><br>
+            
+            Desired Username: <input type="text" id = "username"><span id="location_div"></span><br>
+            Password: <input type="password" id = "pass1"><br>
+            Type Password Again: <input type="password" id = "pass2"><span id="message"></span><br>
+            <input type="submit" value="Sign up!">
+        </fieldset>
+    </form>
+
+
+
+
+</div></body></html>
+  
