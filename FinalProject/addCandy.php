@@ -64,7 +64,7 @@ if (isset($_GET['addUserForm'])){
     $stmt->execute($namedParameters);
     
     echo "Candy has been added successfully!";
-    header('Location: index.php');
+    header('Location: admin.php');
             
 }
 
