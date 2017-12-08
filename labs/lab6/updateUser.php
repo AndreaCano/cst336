@@ -38,10 +38,10 @@ function getUserInfo($userId){
 
 if(isset($_GET['updateUserForm'])){ //admin has submit a change to user
     global $conn;        
-    $sql = "UPDATE tc_user
-            SET firstName = :fName,
-                lastName = :lName
-                WHERE userId = :userId";
+    $sql = "UPDATE `tc_user`
+            SET firstName = ':fName',
+                lastName = :lName'
+            WHERE userId = :userId";
                 
     $namedParameters = array();
     $namedParameters [":fName"] = $_GET['firstName'];
